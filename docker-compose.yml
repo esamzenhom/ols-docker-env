@@ -36,6 +36,7 @@ services:
       TZ: ${TimeZone}
     networks:
       - default
+
   redis:
     image: "redis:alpine"
     logging:
